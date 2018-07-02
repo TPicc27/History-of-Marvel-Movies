@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace History_of_Marvel_Movies.Controllers
 {
-    public class SeasonController : Controller
+    public class PhaseController : Controller
     {
         // GET: Season
         public ActionResult Index()

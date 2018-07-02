@@ -150,13 +150,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MovieController.cs" />
-    <Compile Include="Controllers\SeasonController.cs" />
+    <Compile Include="Controllers\PhaseController.cs" />
     <Compile Include="Controllers\SeriesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Movies.cs" />
-    <Compile Include="Models\Seasons.cs" />
+    <Compile Include="Models\Phases.cs" />
     <Compile Include="Models\Series.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -204,7 +204,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Movie\" />
-    <Folder Include="Views\Season\" />
+    <Folder Include="Views\Phase\" />
     <Folder Include="Views\Series\" />
   </ItemGroup>
   <ItemGroup>

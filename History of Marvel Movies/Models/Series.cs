@@ -11,7 +11,7 @@ namespace History_of_Marvel_Movies.Models
         public string Title { get; set; }
         public int SeriesNumber { get; set; }
         public DateTime ReleaseDate { get; set; }
-        public Seasons Season { get; set; }
+        public Phases Phase { get; set; }
         public decimal Rating { get; set; }
     }
 }
